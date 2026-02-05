@@ -1,0 +1,9 @@
+friend_a = {"Python", "Cooking", "Hiking", "Movies"}
+friend_b = {"Hiking", "Gaming", "Photography", "Python"}
+
+print("Friend A's interests:", friend_a)
+print("Friend B's interests:", friend_b)
+
+print("Common interests:", friend_a & friend_b)  # Intersection
+print("All interests:", friend_a | friend_b)  # Union
+print("Unique to Friend A:", friend_a - friend_b)  # Difference

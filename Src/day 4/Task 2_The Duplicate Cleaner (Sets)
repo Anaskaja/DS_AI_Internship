@@ -1,0 +1,13 @@
+raw_logs= ["ID01", "ID02", "ID01", "ID05", "ID02", "ID08", "ID01"]
+print("Raw user IDs:", raw_logs)
+
+unique_users = set(raw_logs)
+print("Unique user IDs:", unique_users)
+
+if "ID05" in unique_users:
+    print("True")
+else:
+    print("False")
+
+print("Length of unique users:", len(unique_users))
+print("Length of raw logs:", len(raw_logs))

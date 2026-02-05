@@ -1,0 +1,18 @@
+contacts={"Jack":808080,"Jill":909090,"Kevin":707070}
+print("Contacts:",contacts)
+
+contacts.update({"Charlie":606060})
+print("After adding:",contacts)
+
+contacts.update({"Jack":67878})
+print("After updating:",contacts)
+
+contacts.get("Jill")
+print("Jill's number:",contacts.get("Jill"))
+
+print(contacts.get("David","Contact not Found"))
+
+for Name,Number in contacts.items():
+    print(f"Contact:{Name}|Phone:{Number}")
+
+
