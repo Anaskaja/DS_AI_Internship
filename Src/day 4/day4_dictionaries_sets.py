@@ -1,9 +1,6 @@
-Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
+
 a ={"key": value}
-Traceback (most recent call last):
-  File "<pyshell#0>", line 1, in <module>
-    a ={"key": value}
+
 NameError: name 'value' is not defined. Did you mean: 'False'?
 a ={"key":"value"}
 print(a)
@@ -18,7 +15,7 @@ student["city"]="Delhi"
 print(student)
 {'name': 'amit', 'age': 22, 'course': 'Engineering', 'city': 'Delhi'}
 marks ={"maths":80,"science":75,"english":85]
-SyntaxError: closing parenthesis ']' does not match opening parenthesis '{'
+ '{'
 marks ={"maths":80,"science":75,"english":85}
 print(marks.get("math"))
 None
@@ -30,15 +27,12 @@ for subject,score in marks.items():
     print(subject,score)
 
     
-maths 80
-science 75
-english 85
 print(marks)
-{'maths': 80, 'science': 75, 'english': 85}
+
 marks.update({"maths":100})
 print(subject,score in marks.items():
       
-SyntaxError: invalid syntax
+
 print(subject,score,marks)
       
 english 85 {'maths': 100, 'science': 75, 'english': 85}
