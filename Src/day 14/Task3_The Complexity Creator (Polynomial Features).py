@@ -28,4 +28,3 @@ print(f"R² Score (Original Linear): {r2_linear:.4f}")
 print(f"R² Score (Polynomial Deg=2): {r2_poly:.4f}")
 
 print("\nObservation: Yes, the curved features helped significantly. The Polynomial model has a much higher R² score because it can fit the non-linear curve.")
-
